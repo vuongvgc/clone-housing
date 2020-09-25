@@ -1,0 +1,23 @@
+/* -------------------------- */
+/* ---      Global     ----- */
+/* ------------------------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    /* 1rem = 10px */
+    font-size: 10px;
+    /* align center  */
+    width: 100%;
+    margin: 0 auto;
+    /* color default */
+    background-color: #fff;
+    color: #000;
+}
+/* -------------------------- */
+/* ---      base       ----- */
+/* ------------------------ */
+/* dark: #06080C */
+/* light:#474747 */

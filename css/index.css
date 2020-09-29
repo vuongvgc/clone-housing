@@ -34,10 +34,16 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.432);
   color: #fff;
   padding: 1rem;
   padding-bottom: 0.5rem;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  z-index: 9999;
 }
 /* logo  */
 .logo__box h1 {
@@ -77,10 +83,9 @@ nav {
 /* ------------------------ */
 .carousel__section {
   background-color: aqua;
-  height: 500px;
 }
 .carousel__item {
-  height: 500px;
+  height: 600px;
 }
 /* carousel stick  */
 /* button pre next  */
@@ -134,4 +139,7 @@ nav {
 /* img */
 .carousel__img {
   top: 0;
+}
+.carousel__img img {
+    width: 100%;
 }

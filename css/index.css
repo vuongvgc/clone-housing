@@ -66,10 +66,72 @@ nav {
   font-weight: 500;
   padding: 1rem 1.5rem;
   border-bottom: 2px solid #fff;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 .nav__link:hover {
   color: #00cdce;
   border: none;
 }
+/* -------------------------- */
+/* ---  carousel Section --- */
+/* ------------------------ */
+.carousel__section {
+  background-color: aqua;
+  height: 500px;
+}
+.carousel__item {
+  height: 500px;
+}
+/* carousel stick  */
+/* button pre next  */
+.slick-slider .slick-arrow {
+  font-size: 6rem;
+  position: absolute;
+  top: 40%;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  color: #fff;
+  z-index: 1000;
+}
+.slick-slider .slick-arrow.left {
+  left: 40px;
+}
 
+.slick-slider .slick-arrow.right {
+  right: 40px;
+}
+/* dot  */
+.slick-dots {
+  bottom: 10%;
+}
+.slick-dots li button:before {
+  font-size: 1.2rem;
+  color: #fff;
+  transition: all .3s;
+  opacity: 1;
+}
+.slick-dots li button:before:hover {
+    color: #000;
+}
+
+/* text  */
+.carousel__text {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+.carousel__text h3 {
+  font-size: 6rem;
+  text-transform: uppercase;
+}
+.carousel__text p {
+  font-size: 2.4rem;
+}
+/* img */
+.carousel__img {
+  top: 0;
+}

@@ -23,9 +23,40 @@ body {
 /* -------------------------- */
 /* ---      base       ----- */
 /* ------------------------ */
+
 /* dark: #06080C */
 /* light:#474747 */
 /* blue: #00cdce */
+/* header  */
+.header__secondary {
+    font-size: 5rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #000;
+    text-align: center;
+    margin: 2rem;
+}
+.header__tertiary {
+    font-size: 3rem;
+    color: #00cdce;
+    text-align: center;
+    margin: 2rem;
+}
+/* text  */
+.content__text {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 3rem;
+}
+/* layout  */
+.flex-box {
+    display: flex;
+    justify-content:space-evenly;
+}
+.col-1-of-3 {
+    width: 25%;
+}
 
 /* -------------------------- */
 /* ---  Header Section ----- */
@@ -142,4 +173,36 @@ nav {
 }
 .carousel__img img {
     width: 100%;
+}
+/* -------------------------- */
+/* ---  about Section ----- */
+/* ------------------------ */
+.about__section {
+    margin: 6rem auto;
+}
+.about__content {
+    margin: 4rem auto;
+}
+.about__item p {
+    color:#7F7676;
+}
+.about__icon {
+    display: block;
+    width: 10rem;
+    height: 10rem;
+    font-size: 2.8rem;
+    border: 1px solid gray;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 10rem;
+    margin: 2rem auto;
+    background-color: #fff;
+    transition: all .2s;
+}
+.about__icon:hover {
+    background-color: #00cdce;
+}
+.about__us {
+    margin: 2rem auto;
+    width: 85%;
 }

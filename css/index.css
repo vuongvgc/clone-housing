@@ -57,6 +57,9 @@ body {
 .col-1-of-3 {
     width: 25%;
 }
+.col-1-of-4 {
+  width: 20%;
+}
 
 /* -------------------------- */
 /* ---  Header Section ----- */
@@ -205,4 +208,30 @@ nav {
 .about__us {
     margin: 2rem auto;
     width: 85%;
+}
+/* -------------------------- */
+/* ---  stats  Section ----- */
+/* ------------------------ */
+.stats__section {
+  margin: 6rem auto;
+  padding: 3rem 6rem;
+  text-align: center;
+  background-color: #00cdce;
+}
+.stats__content {
+  margin: 4rem auto;
+}
+.stats__item span {
+  color: #fff;
+  font-size: 5.6rem;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  letter-spacing: 5px;
+}
+.stats__item p {
+  font-size: 3rem;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+  text-transform: capitalize;
 }

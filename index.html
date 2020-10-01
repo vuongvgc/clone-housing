@@ -11,6 +11,8 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <!-- font icon  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- font google  -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
     <!-- main style  -->
@@ -133,23 +135,82 @@
             <!-- Blog 1 -->
             <div class="blog__item col-1-of-3">
                 <img src="./img/g1.jpg" alt="Blog">
-                <h3><a href="#">Lorem, ipsum dolor.</a></h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  porro deleniti nesciunt placeat</p>
-                <button class="btn btn__text--dark">Read more..</button>
+                <h3><a href="blog__modal--1">Lorem, ipsum dolor.</a></h3>
+                <p>Consequatur ipsum distinctio Consequatur ipsum distinctio porro delenit idistinctio Consequatur ipsum distinctio porro deleniti nesciunt placeat</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn__text--dark" data-toggle="modal" data-target="#blog__modal--1">
+                    Read more..
+                </button>
+                 <!-- Modal -->
+                <div class="modal fade blog__popup" id="blog__modal--1" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header header__popup">
+                                <h3 class="modal-title " id="staticBackdropLabel">Housing</h3>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body body__popup">
+                                <img src="./img/video.jpg" alt="Pop up">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id incidunt quasi nulla dignissimos! Quis exercitationem quisquam similique dicta debitis nulla dignissimos! Quis exercitationem quisquam similique dicta debitis  debitis laboriosam. Blanditiis architecto,dolorum hic molestiae quisquam repellat culpa aut aspernatur.</p>
+                            </div>       
+                        </div>
+                    </div>
+                </div>
             </div>
             <!-- Blog 2 -->
             <div class="blog__item col-1-of-3">
                 <img src="./img/g2.jpg" alt="Blog">
-                <h3><a href="#">Lorem, ipsum dolor.</a></h3>
-                <p>Consequatur ipsum distinctio Consequatur ipsum distinctio porro deleniti nesciunt placeat</p>
-                <button class="btn btn__text--dark">Read more..</button>
+                <h3><a href="blog__modal--2">Lorem, ipsum dolor.</a></h3>
+                <p>Consequatur ipsum distinctio Consequatur ipsum distinctio porro delenit idistinctio Consequatur ipsum distinctio porro deleniti nesciunt placeat</p>
+                <!-- button  -->
+                <button type="button" class="btn btn__text--dark" data-toggle="modal" data-target="#blog__modal--2">
+                    Read more..
+                </button>
+                 <!-- Modal -->
+                <div class="modal fade blog__popup" id="blog__modal--2" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header header__popup">
+                                <h3 class="modal-title " id="staticBackdropLabel">Housing</h3>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body body__popup">
+                                <img src="./img/video.jpg" alt="Pop up">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id incidunt quasi nulla dignissimos! Quis exercitationem quisquam similique dicta debitis nulla dignissimos! Quis exercitationem quisquam similique dicta debitis  debitis laboriosam. Blanditiis architecto,dolorum hic molestiae quisquam repellat culpa aut aspernatur.</p>
+                            </div>       
+                        </div>
+                    </div>
+                </div>
             </div>
             <!-- Blog 3 -->
             <div class="blog__item col-1-of-3">
                 <img src="./img/g1.jpg" alt="Blog">
-                <h3><a href="#">Lorem, ipsum dolor.</a></h3>
-                <p>Amet consectetur adipisicing elit. Consequatur ipsum distinctio porro deleniti nesciunt placeat</p>
-                <button class="btn btn__text--dark">Read more..</button>
+                <h3><a href="blog__modal--3">Lorem, ipsum dolor.</a></h3>
+                <p>Consequatur ipsum distinctio Consequatur ipsum distinctio porro delenit idistinctio Consequatur ipsum distinctio porro deleniti nesciunt placeat</p>
+                <button type="button" class="btn btn__text--dark" data-toggle="modal" data-target="#blog__modal--3">
+                    Read more..
+                </button>
+                 <!-- Modal -->
+                <div class="modal fade blog__popup" id="blog__modal--3" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header header__popup">
+                                <h3 class="modal-title " id="staticBackdropLabel">Housing</h3>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body body__popup">
+                                <img src="./img/video.jpg" alt="Pop up">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id incidunt quasi nulla dignissimos! Quis exercitationem quisquam similique dicta debitis nulla dignissimos! Quis exercitationem quisquam similique dicta debitis  debitis laboriosam. Blanditiis architecto,dolorum hic molestiae quisquam repellat culpa aut aspernatur.</p>
+                            </div>       
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -173,6 +234,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous"></script>
     <!-- count up jquery -->
     <script src="./js/jquery.countup.js"></script>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
    <script>
     //    carousel 
        $('.fade-carousel__box').slick({
@@ -191,6 +255,8 @@
             'time': 2000,
             'delay': 10
             });
+    // pop up 
+        $('#myModal').modal('show')
     </script>
 </body>
 </html>

@@ -293,3 +293,44 @@ nav {
 .blog__item  button {
   margin: 5% ;
 }
+/* popup  */
+.blog__popup {
+  z-index: 9999;
+}
+
+/* header */
+.header__popup {
+  background-color: #00cdce;
+}
+#blog__modal--1 .modal-dialog,
+#blog__modal--2 .modal-dialog,
+#blog__modal--3 .modal-dialog {
+  max-width: 650px;
+}
+.header__popup h3 {
+  font-size: 4rem;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+}
+.header__popup .close {
+  color: red;
+  font-size: 4rem;
+  padding: 2rem;
+  opacity: 0.8;
+  margin-right: 0;
+}
+.header__popup button:focus {
+  outline: none;
+}
+/* body  */
+
+.body__popup img {
+  padding: 1.5rem;
+}
+.body__popup p {
+  margin-bottom: 2.5rem;
+  line-height: 3rem;
+  padding: 1.5rem;
+  color: #7F7676;
+}

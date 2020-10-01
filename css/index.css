@@ -66,6 +66,7 @@ body {
   font-size: 1.7rem;
   letter-spacing: 1px;
   font-weight: 200;
+  border-radius: 4px;
 }
 .btn__text--dark {
   color: #00cdce;
@@ -329,6 +330,131 @@ nav {
   padding: 1.5rem;
 }
 .body__popup p {
+  margin-bottom: 2.5rem;
+  line-height: 3rem;
+  padding: 1.5rem;
+  color: #7F7676;
+}
+/* -------------------------- */
+/* ---  Get More  Section ----- */
+/* ------------------------ */
+.get-more__section {
+  background-color: #00cdce;
+  margin-bottom: 4rem;
+}
+/* video  */
+.get-more__video {
+    width: 50%;
+    position: relative;
+}
+.get-more__video img {
+  width: 100%;
+}
+.get-more__video .icon__play-border {
+  position: absolute;
+  top:30%;
+  left: 50%;
+  transform: translate(-50%,50%);
+  width: 8rem;
+  height: 8rem;
+  background-color: #00cece59;
+  border: none;
+  border-radius: 50%;
+}
+.get-more__video .icon__play {
+  width: 4rem;
+  height: 4rem;
+  margin: 2rem auto;
+  border: none;
+  border-radius: 50%;
+  background-color: #fff;
+  text-align: center;
+  line-height: 4rem;
+}
+.get-more__video .icon__play i {
+  font-size: 1.8rem;
+  padding-left: 2px;
+  color: #00cdce;
+}
+/* video  */
+#get-more__modal--1 .modal-content {
+  margin-top: 10rem;
+}
+#get-more__modal--1 .header__popup {
+  background-color: #fff;
+  margin: 3rem 2rem ;
+}
+#get-more__modal--1 .get-more__popup {
+  position: relative;
+}
+#get-more__modal--1 .header__popup .close {
+  color:#fff;
+  font-size: 4rem;
+  padding: 1rem;
+  padding-bottom: 0;
+  opacity: 0.8;
+  margin-right: 0;
+  position: absolute;
+  top: -8%;
+  left: -8%;
+}
+
+/* content  */
+.get-more__content {
+  width: 60%;
+  padding: 2rem 0; 
+  margin: 0 auto;
+}
+.get-more__content h3 {
+  text-align: center;
+  font-size: 4.50rem;
+  font-weight: 400;
+  margin: 2rem 0;
+}
+.get-more__content p {
+  width: 80%;
+  margin: 1rem auto;
+  color:#fff;
+  text-align: center;
+  line-height: 3rem ;
+  padding: 1.5rem;
+}
+.get-more__content button {
+  display: block;
+  margin: 2rem auto;
+}
+/* pop up  */
+/* header */
+#get-more__modal--2 .header__popup {
+  background-color: #00cdce;
+}
+#get-more__modal--2 .modal-dialog{
+  width: 650px;
+}
+#get-more__modal--2 .header__popup h3 {
+  width: 100%;
+  font-size: 4rem;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+}
+#get-more__modal--2 .header__popup .close {
+  color: red;
+  font-size: 4rem;
+  padding: 2rem;
+  opacity: 0.8;
+  margin-right: 0;
+}
+#get-more__modal--2 .header__popup button:focus {
+  outline: none;
+}
+/* body  */
+
+#get-more__modal--2 .body__popup img {
+  padding: 1.5rem;
+  width: 100%;
+}
+#get-more__modal--2 .body__popup p {
   margin-bottom: 2.5rem;
   line-height: 3rem;
   padding: 1.5rem;

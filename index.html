@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Housing website</title>
+    
     <!-- carousel -->
     <!-- Add the slick-theme.css if you want default styling -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
@@ -15,6 +16,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- font google  -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- lightbox -->
+    <link rel="stylesheet" href="./css/lsb.css">
     <!-- main style  -->
     <link rel="stylesheet" href="./css/index.css">
 </head>
@@ -266,7 +269,81 @@
         </div>
     </section>
     <!-- Portfolio -->
-    <section class="portfolio__section"></section>
+    <section class="portfolio__section">
+        <h2 class="header__secondary">Portfolio</h2>
+        <!-- row 1 -->
+        <div class="portfolio__item">
+            <div class="portfolio__box">
+                <a href="img/img1.jpg" class=" lsb-preview" data-lsb-group="gallery1">
+                    <img src="img/img1.jpg" alt="Image Title">
+                    <div class="portfolio__content">
+                        <div class="portfolio__header">
+                            <h3>Gallery</h3>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio__box">
+                <a href="img/img2.jpg" class=" lsb-preview" data-lsb-group="gallery1">
+                    <img src="img/img2.jpg" alt="Image Title">
+                    <div class="portfolio__content">
+                        <div class="portfolio__header">
+                            <h3>Gallery</h3>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio__box">
+                <a href="img/img3.jpg" class=" lsb-preview" data-lsb-group="gallery1">
+                    <img src="img/img3.jpg" alt="Image Title">
+                    <div class="portfolio__content">
+                        <div class="portfolio__header">
+                            <h3>Gallery</h3>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- row 2 -->
+        <div class="portfolio__item">
+            <div class="portfolio__box">
+                <a href="img/img4.jpg" class=" lsb-preview" data-lsb-group="gallery1">
+                    <img src="img/img4.jpg" alt="Image Title">
+                    <div class="portfolio__content">
+                        <div class="portfolio__header">
+                            <h3>Gallery</h3>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio__box">
+                <a href="img/img5.jpg" class=" lsb-preview" data-lsb-group="gallery1">
+                    <img src="img/img5.jpg" alt="Image Title">
+                    <div class="portfolio__content">
+                        <div class="portfolio__header">
+                            <h3>Gallery</h3>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio__box">
+                <a href="img/img6.jpg" class=" lsb-preview" data-lsb-group="gallery1">
+                    <img src="img/img6.jpg" alt="Image Title">
+                    <div class="portfolio__content">
+                        <div class="portfolio__header">
+                            <h3>Gallery</h3>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
     <!-- subscribel -->
     <section class="subscribe__section"></section>
     <!-- Our Agents -->
@@ -286,6 +363,8 @@
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- lightbox  -->
+    <script src="./js/lsb.min.js"></script>
    <script>
     //    carousel 
        $('.fade-carousel__box').slick({
@@ -304,6 +383,12 @@
             'time': 2000,
             'delay': 10
             });
+    // ligtbox 
+        $(window).on('load', function() { 
+            $.fn.lightspeedBox();
+  
+        });
+</script> 
     
     </script>
 </body>

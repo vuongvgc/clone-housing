@@ -29,12 +29,14 @@ body {
 /* blue: #00cdce */
 /* header  */
 .header__secondary {
-    font-size: 5rem;
+    font-size: 6rem;
     font-weight: 500;
     text-transform: capitalize;
     color: #000;
     text-align: center;
-    margin: 2rem;
+    padding: 2rem;
+    margin: 3rem;
+    letter-spacing: 1px;
 }
 .header__tertiary {
     font-size: 3rem;
@@ -459,4 +461,66 @@ nav {
   line-height: 3rem;
   padding: 1.5rem;
   color: #7F7676;
+}
+/* -------------------------- */
+/* ---  Portfolio ----- */
+/* ------------------------ */
+.portfolio__section {
+  margin: 4rem auto;
+}
+.portfolio__section h2 {
+  padding: 2rem;
+}
+.portfolio__item {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.portfolio__box {
+  width: 35%;
+  padding: 0;
+  margin: 0 1.5rem;
+  text-align: center;
+  position: relative;
+  background-color: rebeccapurple;
+}
+
+.portfolio__box img {
+  width: 100%;
+}
+.portfolio__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 2rem ;
+  width: 90%;
+  margin: 1% auto;
+  text-align: center;
+  opacity: 0;
+  transition: all .5s;
+}
+.portfolio__box:hover .portfolio__content {
+  opacity: 1;
+}
+.portfolio__header {
+  width: 70%;
+  padding: 2rem 4rem;
+  margin: 1rem auto;
+  border-top: 1px solid #00cdce;
+  border-bottom: 1px solid #00cdce;
+  text-transform: uppercase;
+}
+.portfolio__header h3 {
+  font-size: 3rem;
+  color: #00cdce;
+  font-weight: 300;
+}
+.portfolio__content p {
+  color: #fff;
+  padding: 2rem 4rem;
+
 }

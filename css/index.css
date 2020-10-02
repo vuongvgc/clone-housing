@@ -623,4 +623,61 @@ nav {
   margin-bottom: 2rem;
   transition: all .2S;
 }
+/* -------------------------- */
+/* -- contact__section-------- */
+/* ------------------------ */
+.contact__section {
+  margin: 0rem auto;
+  margin-bottom: 6rem;
+}
+/* map  */
+.contact__map {
+  width: 100%;
+  border: 3px solid #00cdce;
+  padding: 1.5rem;
+  background-color: #a79d9d;
+}
+.contact__map iframe {
+  width: 100%;
+}
+.contact__infor {
+  margin: 2rem auto;
+}
+.contact__form {
+  width: 86%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.contact__item {
+  width: 49%;
+}
+.contact__item  input,
+.contact__item  textarea,
+.contact__item  button {
+  width: 100%;
+  padding: 10px 10px;
+  background-color:#EFEFEF;
+  border: none;
+  border-bottom: 2px solid #998e8e;
+  margin-bottom: 2.5rem;
+}
+.contact__item  textarea {
+  margin-bottom: 1.8rem;
+}
+.contact__item  input:focus,
+.contact__item  textarea:focus,
+.contact__item  button:focus {
+  outline: none;
+  border-bottom: 2px solid #000;
+}
+.contact__item  button {
+  background: #000;
+  color: #fff;
+  transition: all .3s;
+}
+.contact__item  button:hover {
+  background: #00cdce;
+  color: #000;
+}
 

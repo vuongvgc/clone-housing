@@ -558,3 +558,69 @@ nav {
   font-size: 2rem;
   margin: 2rem;
 }
+/* -------------------------- */
+/* -- agents__section-------- */
+/* ------------------------ */
+.agents__section{
+  margin: 8rem auto;
+}
+
+.agents__content {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+}
+.agents__item {
+  width: 23%;
+  text-align: center;
+  background-color: #363636;
+}
+.agents__item  img {
+  width: 100%;
+}
+.agents__item h3 {
+  font-size: 2.5rem;
+  color: #00cdce;
+  text-transform: uppercase;
+  padding: 1rem;
+  padding-bottom: 0;
+  transition: all .5s;
+  cursor: default;
+}
+.agents__item h3:hover {
+  color: #fff;
+}
+.agents__item p {
+  text-transform: capitalize;
+}
+.agents__icon {
+  display: flex;
+  justify-content: center;
+}
+.agents__icon .icon__link {
+  color: #fff;
+  text-decoration: none;
+}
+.icon__fb:hover .icon__box {
+  background-color: #2D88FF;
+}
+.icon__tw:hover .icon__box{
+  background-color: #1DA1F2;
+}
+.icon__rss:hover .icon__box {
+  background-color: #FF6600;
+}
+
+
+.agents__icon .icon__box {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #fff;
+  margin: 0 1rem;
+  margin-bottom: 2rem;
+  transition: all .2S;
+}
+

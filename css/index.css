@@ -680,4 +680,60 @@ nav {
   background: #00cdce;
   color: #000;
 }
+/* -------------------------- */
+/* -- contact__section-------- */
+/* ------------------------ */
+.footer {
+  background-color: #00cdce;
+  display: flex;
+  justify-content: space-around;
+  padding: 4rem ;
+  color: #fff;
+}
+.copy-right {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copy-right a {
+  text-decoration: none;
+  color: red;
+  transition: all .3s;
+}
+.copy-right a:hover {
+  color: #fff;
+}
+.footer__social {
+  display: flex;
+  justify-content: center;
+}
+.footer__social .icon__box {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #fff;
+  margin: 0 1rem;
+  transition: all .2S;
+  text-align: center;
+}
+.footer__social .icon__link {
+  color: #fff;
+  text-decoration: none;
+}
+.icon__fb:hover .icon__box {
+  color: #2D88FF;
+}
+.icon__tw:hover .icon__box{
+  color: #1DA1F2;
+}
+.icon__rss:hover .icon__box {
+  color: #FF6600;
+}
+.icon__vk:hover .icon__box{
+  color: #1DA1F2;
+}
 

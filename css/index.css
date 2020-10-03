@@ -6,6 +6,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html, body {
+  font-family: 'Montserrat', sans-serif;
+}
 html {
   /* 1rem = 10px */
   font-size: 10px;
@@ -22,7 +25,8 @@ html {
 }
 /* set font size all page  16px */
 body {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
 }
 /* back to top */
 .back-to-top {
@@ -58,14 +62,14 @@ body {
 
 /* header  */
 .header__secondary {
-    font-size: 6rem;
+    font-size: 5.6rem;
     font-weight: 500;
     text-transform: capitalize;
     color: #000;
     text-align: center;
-    padding: 2rem;
-    margin: 3rem;
+    padding: 1rem;
     letter-spacing: 1px;
+    margin-bottom: 2rem;
 }
 .header__tertiary {
     font-size: 3rem;
@@ -107,6 +111,15 @@ body {
 .btn__text--dark:hover {
   color: #fff;
 }
+/* spacing  */
+.padding-big {
+  padding-top: 8rem;
+}
+.padding-medium {
+  padding-top: 6rem;
+}
+
+
 
 /* -------------------------- */
 /* ---  Header Section ----- */
@@ -115,10 +128,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
-  padding: 1rem;
-  padding-bottom: 0.5rem;
+  padding: 0 2rem ;
+  padding-top: 0.5rem;
   position: fixed;
   width: 100%;
   height: auto;
@@ -127,10 +140,14 @@ body {
   z-index: 9999;
 }
 /* logo  */
+.logo__box a {
+  color: #fff;
+  text-decoration: none;
+}
 .logo__box h1 {
   font-size: 5.6rem;
-  font-weight: 300;
-  letter-spacing: 2px;
+  font-weight: 400;
+  letter-spacing: 5px;
   text-transform: capitalize;
 }
 .logo__box span {
@@ -138,7 +155,7 @@ body {
 }
 /* navigation  */
 nav {
-  width: 60%;
+  width: 55%;
 }
 .nav__list {
   display: flex;
@@ -150,7 +167,7 @@ nav {
   text-decoration: none;
   color: #fff;
   font-size: 1.6rem;
-  font-weight: 500;
+  font-weight: 400;
   padding: 1rem 1.5rem;
   border-bottom: 2px solid #fff;
   transition: all .5s;
@@ -167,8 +184,8 @@ nav {
 .carousel__section {
   background-color: aqua;
 }
-.carousel__item {
-  height: 600px;
+.carousel__img {
+  height: 700px;
 }
 /* carousel stick  */
 /* button pre next  */
@@ -224,13 +241,14 @@ nav {
   top: 0;
 }
 .carousel__img img {
-    width: 100%;
+    width: 100%; 
 }
 /* -------------------------- */
 /* ---  about Section ----- */
 /* ------------------------ */
 .about__section {
-    margin: 6rem auto;
+    margin: 0 auto;
+    margin-bottom: 4rem;
 }
 /* content  */
 .about__content {
@@ -267,8 +285,8 @@ nav {
 /* ---  stats  Section ----- */
 /* ------------------------ */
 .stats__section {
-  margin: 3rem auto;
-  padding: 3rem 6rem;
+  margin: 0 auto;
+  padding: 6rem;
   text-align: center;
   background-color: #00cdce;
 }
@@ -296,8 +314,7 @@ nav {
 /* --- Blog  Section ----- */
 /* ------------------------ */
 .blog__section {
-  margin: 2rem auto;
-  padding: 2rem 6rem;
+  margin: 0rem auto;
 }
 /* content  */
 .blog__content {
@@ -387,7 +404,6 @@ nav {
 /* ------------------------ */
 .get-more__section {
   background-color: #00cdce;
-  margin-bottom: 4rem;
 }
 /* video  */
 /* video left  */
@@ -516,10 +532,11 @@ nav {
   color: #7F7676;
 }
 /* -------------------------- */
-/* ---  Portfolio ---------- */
+/* --  Portfolio section---- */
 /* ------------------------ */
 .portfolio__section {
-  margin: 4rem auto;
+  margin: 0 auto;
+  margin-bottom: 4rem;
 }
 .portfolio__section h2 {
   padding: 2rem;
@@ -586,24 +603,25 @@ nav {
 /* ------------------------ */
 .subscribe__section {
   background-color: #00cdce;
-  margin: 4rem 0;
-  padding: 1rem;
 }
 /* content  */
 .subscribe__content {
-  width: 70%;
-  margin: 2rem auto;
+  width: 60%;
+  margin: 0 auto;
   text-align: center;
-  padding: 1rem;
+  padding: 4rem;
 }
 /* text  */
 .subscribe__content p {
   color: #fff;
   margin-bottom: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  line-height: 2rem;
 }
 /* input  */
 .subscribe__form input {
-  width: 65%;
+  width: 70%;
   margin: 0 auto;
   padding: 10px 15px;
   font-size: 2rem;
@@ -612,7 +630,7 @@ nav {
 }
 /* button  */
 .subscribe__form button {
-  padding: 5px 50px;
+  padding: 15px 50px;
   letter-spacing: 3px;
   background-color: #000;
   color: #fff;
@@ -623,7 +641,7 @@ nav {
 /* -- agents__section-------- */
 /* ------------------------ */
 .agents__section{
-  margin: 8rem auto;
+  margin: 0 auto;
 }
 /* content  */
 .agents__content {

@@ -6,9 +6,9 @@
     <title>Housing website</title>
     
     <!-- carousel -->
-    <!-- Add the slick-theme.css if you want default styling -->
+    <!-- slick carousel -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <!-- Add the slick-theme.css if you want default styling -->
+    <!-- slick theme -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <!-- font icon  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
@@ -18,16 +18,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
     <!-- lightbox -->
     <link rel="stylesheet" href="./css/lsb.css">
-
     <!-- main style  -->
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
     <!-- header -->
     <header class="header">
+        <!-- logo -->
         <div class="logo__box">
             <h1>Hous<span>ing</span></h1>
         </div>
+        <!-- Navigation bar  -->
         <nav>
             <ul class="nav__list" id="myNav">
                 <li class="nav__item"><a href="#" class="nav__link active">Home</a></li>
@@ -42,6 +43,7 @@
     <!-- carousel -->
     <section class="carousel__section">
         <div class="fade-carousel__box">
+            <!-- item 1  -->
             <div class="carousel__item">
                 <div class="carousel__img">
                     <img src="./img/b1.jpg" alt="picture carousel 1">
@@ -51,6 +53,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                </div>
             </div>
+            <!-- item 2 -->
             <div class="carousel__item">
                 <div class="carousel__img">
                     <img src="./img/b2.jpg" alt="picture carousel 2">
@@ -60,6 +63,7 @@
                     <p>Lorem ipsum dolor sit,  Quasi voluptatem facilis repellat.  </p>
                </div>
             </div>
+            <!-- item 3 -->
             <div class="carousel__item">
                 <div class="carousel__img">
                     <img src="./img/b3.jpg" alt="picture carousel 3">
@@ -69,6 +73,7 @@
                     <p>Ullam aperiam fugit nihil laboriosam minus, vel quia?</p>
                </div>
             </div>
+            <!-- item 4  -->
             <div class="carousel__item">
                 <div class="carousel__img">
                     <img src="./img/b4.jpg" alt="picture carousel 4">
@@ -82,7 +87,9 @@
     </section>
     <!-- about -->
     <section id="about" class="about__section">
+        <!-- header  -->
         <h2 class="header__secondary">About</h2>
+        <!-- Content  -->
         <div class="about__content flex-box">
             <!-- item home  -->
             <div class="about__item col-1-of-3">
@@ -100,15 +107,19 @@
                 <p class="content__text">Lorem ipsum dolor sit amet. ipsum dolor sit amet consectetur, adipisicing elit. Iste, earum?</p>
             </div>
         </div>
+        <!-- about us  -->
         <div class="about__us">
+            <!-- header -->
             <h3 class="header__tertiary">About us</h3>
+            <!-- text  -->
             <p class="content__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur quas dolores dolorum nihil illo magnam. Aperiam nulla a, nostrum saepe, dolorem nemo voluptates itaque alias sapiente architecto recusandae reprehenderit! Magnam ipsa dolorum natus eligendi expedita quasi sunt repellendus. Illo ipsum numquam esse porro officia eveniet quia sequi voluptatum eius asperiores!</p>
         </div>
-        
     </section>
     <!-- stats -->
     <section class="stats__section">
+        <!-- header  -->
         <h2 class="header__secondary">Starts</h2>
+        <!-- content  -->
         <div class="stats__content flex-box">
             <!-- clients -->
             <div class="stats__item col-1-of-4">
@@ -134,10 +145,13 @@
     </section>
     <!-- Blog  -->
     <section id="blog" class="blog__section">
+        <!-- header  -->
         <h2 class="header__secondary">Blog</h2>
+        <!-- content  -->
         <div class="blog__content flex-box">
             <!-- Blog 1 -->
             <div class="blog__item col-1-of-3">
+                <!-- content -->
                 <img src="./img/g1.jpg" alt="Blog">
                 <h3><a href="blog__modal--1">Lorem, ipsum dolor.</a></h3>
                 <p>Consequatur ipsum distinctio Consequatur ipsum distinctio porro delenit idistinctio Consequatur ipsum distinctio porro deleniti nesciunt placeat</p>
@@ -145,16 +159,19 @@
                 <button type="button" class="btn btn__text--dark" data-toggle="modal" data-target="#blog__modal--1">
                     Read more..
                 </button>
-                 <!-- Modal -->
+                 <!-- Blog Modal -->
                 <div class="modal fade blog__popup" id="blog__modal--1" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
+                            <!-- modal header  -->
                             <div class="modal-header header__popup">
                                 <h3 class="modal-title " id="staticBackdropLabel">Housing</h3>
+                                <!-- button close  -->
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
+                            <!-- modal body  -->
                             <div class="modal-body body__popup">
                                 <img src="./img/video.jpg" alt="Pop up">
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id incidunt quasi nulla dignissimos! Quis exercitationem quisquam similique dicta debitis nulla dignissimos! Quis exercitationem quisquam similique dicta debitis  debitis laboriosam. Blanditiis architecto,dolorum hic molestiae quisquam repellat culpa aut aspernatur.</p>
@@ -165,23 +182,27 @@
             </div>
             <!-- Blog 2 -->
             <div class="blog__item col-1-of-3">
+                <!-- content  -->
                 <img src="./img/g2.jpg" alt="Blog">
                 <h3><a href="blog__modal--2">Lorem, ipsum dolor.</a></h3>
                 <p>Consequatur ipsum distinctio Consequatur ipsum distinctio porro delenit idistinctio Consequatur ipsum distinctio porro deleniti nesciunt placeat</p>
-                <!-- button  -->
+                <!-- button trigger modal  -->
                 <button type="button" class="btn btn__text--dark" data-toggle="modal" data-target="#blog__modal--2">
                     Read more..
                 </button>
-                 <!-- Modal -->
+                 <!--Blog Modal -->
                 <div class="modal fade blog__popup" id="blog__modal--2" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
+                            <!-- modal header  -->
                             <div class="modal-header header__popup">
                                 <h3 class="modal-title " id="staticBackdropLabel">Housing</h3>
+                                <!-- button close  -->
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
+                            <!-- modal body -->
                             <div class="modal-body body__popup">
                                 <img src="./img/video.jpg" alt="Pop up">
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id incidunt quasi nulla dignissimos! Quis exercitationem quisquam similique dicta debitis nulla dignissimos! Quis exercitationem quisquam similique dicta debitis  debitis laboriosam. Blanditiis architecto,dolorum hic molestiae quisquam repellat culpa aut aspernatur.</p>
@@ -195,6 +216,7 @@
                 <img src="./img/g1.jpg" alt="Blog">
                 <h3><a href="blog__modal--3">Lorem, ipsum dolor.</a></h3>
                 <p>Consequatur ipsum distinctio Consequatur ipsum distinctio porro delenit idistinctio Consequatur ipsum distinctio porro deleniti nesciunt placeat</p>
+                <!-- button trigger modal  -->
                 <button type="button" class="btn btn__text--dark" data-toggle="modal" data-target="#blog__modal--3">
                     Read more..
                 </button>
@@ -202,12 +224,15 @@
                 <div class="modal fade blog__popup" id="blog__modal--3" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
+                            <!-- modal header  -->
                             <div class="modal-header header__popup">
                                 <h3 class="modal-title " id="staticBackdropLabel">Housing</h3>
+                                <!-- button close  -->
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
+                            <!-- modal body  -->
                             <div class="modal-body body__popup">
                                 <img src="./img/video.jpg" alt="Pop up">
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id incidunt quasi nulla dignissimos! Quis exercitationem quisquam similique dicta debitis nulla dignissimos! Quis exercitationem quisquam similique dicta debitis  debitis laboriosam. Blanditiis architecto,dolorum hic molestiae quisquam repellat culpa aut aspernatur.</p>
@@ -220,6 +245,7 @@
     </section>
     <!-- get more     -->
     <section class="get-more__section flex-box">
+        <!-- video left  -->
         <div class="get-more__video">
             <img src="./img/video.jpg" alt="video">
             <!-- Button trigger modal -->
@@ -243,23 +269,27 @@
                 </div>
             </div>
         </div>
+        <!-- content right -->
         <div class="get-more__content">
             <h3>Get More..</h3>
             <p>Tempora accusamus, rem esse sunt nemo eligendi sint dolore nostrum  Lorem ipsum dolor,Ab, hic enemo eligendi sint dolore nostrum impedit provident?  sit amet consectetur adipisicing elit. Ab, hic enemo eligendi sinimpedit prot dolore nostrum impedit provident? Ab fugiat porro et ipsa, expedita facere culpa dolorem voluptatem veniam assumenda non rem qui ipsam tenetur?</p>
+            <!-- button trigger modal -->
             <button type="button" class="btn btn__text--dark" data-toggle="modal" data-target="#get-more__modal--2">
                 Read more..
             </button>
-             <!-- Modal -->
-             <!-- Modal -->
+             <!--get more Modal -->
              <div class="modal fade blog__popup" id="get-more__modal--2" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
+                        <!-- modal header  -->
                         <div class="modal-header header__popup">
                             <h3 class="modal-title " id="staticBackdropLabel">Housing</h3>
+                            <!-- button close  -->
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
+                        <!-- modal body  -->
                         <div class="modal-body body__popup">
                             <img src="./img/video.jpg" alt="Pop up">
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id incidunt quasi nulla dignissimos! Quis exercitationem quisquam similique dicta debitis nulla dignissimos! Quis exercitationem quisquam similique dicta debitis  debitis laboriosam. Blanditiis architecto,dolorum hic molestiae quisquam repellat culpa aut aspernatur.</p>
@@ -271,12 +301,16 @@
     </section>
     <!-- Portfolio -->
     <section id="portfolio" class="portfolio__section">
+        <!-- header -->
         <h2 class="header__secondary">Portfolio</h2>
         <!-- row 1 -->
         <div class="portfolio__item">
+            <!-- item 1 -->
             <div class="portfolio__box">
                 <a href="img/img1.jpg" class=" lsb-preview" data-lsb-group="gallery1">
+                    <!-- image  -->
                     <img src="img/img1.jpg" alt="Image Title">
+                    <!-- text -->
                     <div class="portfolio__content">
                         <div class="portfolio__header">
                             <h3>Gallery</h3>
@@ -285,9 +319,12 @@
                     </div>
                 </a>
             </div>
+            <!-- item 2 -->
             <div class="portfolio__box">
                 <a href="img/img2.jpg" class=" lsb-preview" data-lsb-group="gallery1">
+                    <!-- image  -->
                     <img src="img/img2.jpg" alt="Image Title">
+                    <!-- text -->
                     <div class="portfolio__content">
                         <div class="portfolio__header">
                             <h3>Gallery</h3>
@@ -296,9 +333,12 @@
                     </div>
                 </a>
             </div>
+            <!-- item 3 -->
             <div class="portfolio__box">
                 <a href="img/img3.jpg" class=" lsb-preview" data-lsb-group="gallery1">
+                    <!-- image  -->
                     <img src="img/img3.jpg" alt="Image Title">
+                    <!-- text -->
                     <div class="portfolio__content">
                         <div class="portfolio__header">
                             <h3>Gallery</h3>
@@ -310,9 +350,12 @@
         </div>
         <!-- row 2 -->
         <div class="portfolio__item">
+            <!-- item 4 -->
             <div class="portfolio__box">
                 <a href="img/img4.jpg" class=" lsb-preview" data-lsb-group="gallery1">
+                    <!-- image  -->
                     <img src="img/img4.jpg" alt="Image Title">
+                    <!-- text -->
                     <div class="portfolio__content">
                         <div class="portfolio__header">
                             <h3>Gallery</h3>
@@ -321,9 +364,12 @@
                     </div>
                 </a>
             </div>
+            <!-- item 5 -->
             <div class="portfolio__box">
                 <a href="img/img5.jpg" class=" lsb-preview" data-lsb-group="gallery1">
+                    <!-- image  -->
                     <img src="img/img5.jpg" alt="Image Title">
+                    <!-- text -->
                     <div class="portfolio__content">
                         <div class="portfolio__header">
                             <h3>Gallery</h3>
@@ -332,9 +378,12 @@
                     </div>
                 </a>
             </div>
+            <!-- item 6 -->
             <div class="portfolio__box">
                 <a href="img/img6.jpg" class=" lsb-preview" data-lsb-group="gallery1">
+                    <!-- image  -->
                     <img src="img/img6.jpg" alt="Image Title">
+                    <!-- text -->
                     <div class="portfolio__content">
                         <div class="portfolio__header">
                             <h3>Gallery</h3>
@@ -347,9 +396,12 @@
     </section>
     <!-- subscribel -->
     <section class="subscribe__section">
+        <!-- header  -->
         <h2 class="header__secondary">Subscribe</h2>
+        <!-- content  -->
         <div class="subscribe__content">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui quos ex harum soluta quo cum similique reprehenderit placeat suscipit aperiam?</p>
+            <!-- form  -->
             <form  class="subscribe__form">
                 <input type="email" name="email" placeholder="Email">
                 <br>
@@ -359,20 +411,26 @@
     </section>
     <!-- Our Agents -->
     <section id="agents" class="agents__section">
+        <!-- header  -->
         <h2 class="header__secondary">Our Agents</h2>
+        <!-- content  -->
         <div class="agents__content">
             <!-- item 1 -->
             <div class="agents__item">
                 <img src="./img/t1.jpg" alt="Our agents">
                 <h3>KAT WALLY</h3>
                 <p>Lorem, ipsum.</p>
+                <!-- icon social  -->
                 <div class="agents__icon">
+                    <!-- facebook  -->
                     <a class=" icon__link icon__fb" href="#">
                         <i class="icon__box fab fa-facebook-f"></i>
                     </a>
+                    <!-- twitter -->
                     <a class=" icon__link icon__tw" href="#">
                         <i class="icon__box fab fa-twitter"></i>
                     </a>
+                    <!-- rss  -->
                     <a class=" icon__link icon__rss" href="#">
                         <i class="icon__box fa fa-rss"></i>
                     </a> 
@@ -383,13 +441,17 @@
                 <img src="./img/t2.jpg" alt="Our agents">
                 <h3>JOHN MAX</h3>
                 <p>Lorem, ipsum.</p>
+                <!-- icon social -->
                 <div class="agents__icon">
+                    <!-- facebook -->
                     <a class=" icon__link icon__fb" href="#">
                         <i class="icon__box fab fa-facebook-f"></i>
                     </a>
+                    <!-- twitter -->
                     <a class=" icon__link icon__tw" href="#">
                         <i class="icon__box fab fa-twitter"></i>
                     </a>
+                    <!-- rss -->
                     <a class=" icon__link icon__rss" href="#">
                         <i class="icon__box fa fa-rss"></i>
                     </a> 
@@ -400,13 +462,17 @@
                 <img src="./img/t3.jpg" alt="Our agents">
                 <h3>ROY KENT</h3>
                 <p>Lorem, ipsum.</p>
+                <!-- icon social -->
                 <div class="agents__icon">
+                    <!-- facebook -->
                     <a class=" icon__link icon__fb" href="#">
                         <i class="icon__box fab fa-facebook-f"></i>
                     </a>
+                    <!-- twitter -->
                     <a class=" icon__link icon__tw" href="#">
                         <i class="icon__box fab fa-twitter"></i>
                     </a>
+                    <!-- rss -->
                     <a class=" icon__link icon__rss" href="#">
                         <i class="icon__box fa fa-rss"></i>
                     </a> 
@@ -417,13 +483,17 @@
                 <img src="./img/t4.jpg" alt="Our agents">
                 <h3>JOY IDSON</h3>
                 <p>Lorem, ipsum.</p>
+                <!-- icon social -->
                 <div class="agents__icon">
+                    <!-- facebook -->
                     <a class=" icon__link icon__fb" href="#">
                         <i class="icon__box fab fa-facebook-f"></i>
                     </a>
+                    <!-- twitter -->
                     <a class=" icon__link icon__tw" href="#">
                         <i class="icon__box fab fa-twitter"></i>
                     </a>
+                    <!-- rss -->
                     <a class=" icon__link icon__rss" href="#">
                         <i class="icon__box fa fa-rss"></i>
                     </a> 
@@ -433,21 +503,33 @@
     </section>
     <!-- contact us  -->
     <section id="contact" class="contact__section">
+        <!-- contact map -->
         <div class="contact__map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7491.321888332529!2d94.92568900000002!3d20.148188!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x229dbaae31b864b9!2sZarmani!5e0!3m2!1svi!2sin!4v1601619841333!5m2!1svi!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
+        <!-- contact infor  -->
         <div class="contact__infor">
+            <!-- header  -->
             <h2 class="header__secondary">Contact Us</h2>
+            <!-- form -->
             <form >
                 <div class="contact__form">
+                    <!-- item left -->
                     <div class="contact__item">
+                        <!-- name  -->
                         <input type="text" name="name" placeholder="Name">
+                        <!-- Last name  -->
                         <input type="text" name="lastName" placeholder="Class Name">
+                        <!-- Email  -->
                         <input type="email" name="email" placeholder="Email">
+                        <!-- Telephone number  -->
                         <input type="tel" name="numberPhone" placeholder="Phone">
                     </div>
+                    <!-- item right  -->
                     <div class="contact__item">
+                        <!-- Messega -->
                         <textarea name="message" placeholder="Message" id="" cols="20" rows="7" ></textarea>
+                        <!-- button submit  -->
                         <button type="submit">Submit</button>
                     </div>
                 </div>    
@@ -456,28 +538,33 @@
     </section>
     <!-- footer -->
     <footer class="footer">
+        <!-- copy-right -->
         <div class="copy-right">
             <p>&copy; 2017 Housing. All Rights Reserved | Design by <a href="#">W3layouts</a> </p>
         </div>
+        <!-- social  -->
         <div class="footer__social">
+            <!-- facebook -->
             <a class=" icon__link icon__fb" href="#">
                 <i class="icon__box fab fa-facebook-f"></i>
             </a>
+            <!-- twitter -->
             <a class=" icon__link icon__tw" href="#">
                 <i class="icon__box fab fa-twitter"></i>
             </a>
+            <!-- rss  -->
             <a class=" icon__link icon__rss" href="#">
                 <i class="icon__box fa fa-rss"></i>
             </a> 
+            <!-- vk -->
             <a class=" icon__link icon__vk" href="#">
                 <i class="icon__box fab fa-vk"></i>
             </a>
         </div>
-
     </footer>
     <!-- back to top  -->
     <div class="back-to-top">
-        <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <button onclick="topFunction()" id="backToTop" title="Go to top">
             <a href="#"><img src="./img/arrowup.png" alt="arrow up"></a>
         </button>
     </div>

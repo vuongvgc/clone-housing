@@ -150,14 +150,14 @@ nav {
   font-weight: 500;
   padding: 1rem 1.5rem;
   border-bottom: 2px solid #fff;
-  transition: all 2s;
+  transition: all .5s;
 }
-.nav__link:hover {
+.active, .nav__link:hover {
   color: #00cdce;
   border: none;
   text-decoration: none;
-
 }
+
 /* -------------------------- */
 /* ---  carousel Section --- */
 /* ------------------------ */

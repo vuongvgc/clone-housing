@@ -315,6 +315,7 @@ nav {
 /* --- Blog  Section ----- */
 /* ------------------------ */
 .blog__section {
+  width: 85%;
   margin: 0rem auto;
 }
 /* content  */
@@ -331,6 +332,7 @@ nav {
 }
 .blog__item img {
   width: 100%;
+  border-top: 6px solid  #00cdce;
 }
 
 /* header content  */

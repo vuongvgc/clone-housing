@@ -677,7 +677,7 @@ nav {
   cursor: default;
 }
 /* hover item */
-.agents__item h3:hover {
+.agents__item:hover h3 {
   color: #fff;
 }
 /* text  */
